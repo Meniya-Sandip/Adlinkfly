@@ -1,0 +1,32 @@
+<style>.countdown {margin-bottom: 12px;margin-top: 12px;}.floating-ads-container{position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;backdrop-filter:blur(5px)}.floating-ads-wrap{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;z-index:1}.floating-ads-bottom-ad{display:block;position:relative}.floating-ads-bottom-timer{position:absolute;bottom:-20px;display:block;font-size:15px;font-weight:700;text-decoration:none;border-radius:50%;cursor:pointer;text-align:center;height:20px;width:20px;line-height:18px;background-color:#ddd;z-index:5;color:#FF0000!important;right:1px}</style>
+
+<div class="floating-ads-container">
+<div class="floating-ads-wrap">
+<div class="floating-ads-bottom-ad">
+	
+<!------------------[ads]---------------------->
+	
+<!-------------------[ads]---------------------->
+	
+<div class="floating-ads-bottom-close">
+<a class="floating-ads-bottom-textcss-x" href="#"></a></div>
+<div class="countdown"></div></div>
+<div class="floating-ads-bottom-ad">
+	
+<!---------------------[ads]-------------------->
+
+<!--------------------[ads]---------------------->
+</div></div></div>
+
+<script>
+const countdownEl = document.querySelector('.countdown');
+let countdownValue = 10;
+const countdownInterval = setInterval(() => {
+  countdownValue--;
+  countdownEl.textContent = "👆 Click On Ad To Next Page 👇";
+  if (countdownValue === 0) {
+    clearInterval(countdownInterval);
+    document.querySelector('.floating-ads-container').style.display = 'none';
+  }
+}, 1000);
+</script>

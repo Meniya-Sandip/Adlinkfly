@@ -1,0 +1,11 @@
+Agar Them Lagane Ke Baad Save Button Kam Nai karta He To Ye Follow Kare
+
+Jo Version Ka ORG Script Use Kiya He Us ORG Script Me
+
+scr/template/admin/options/index.ctp
+
+index.ctp ke full code ko copy kare
+
+fir us code ko public_HTML me same path par past kare.
+
+#Problem_Fixed

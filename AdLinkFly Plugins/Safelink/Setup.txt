@@ -1,0 +1,18 @@
+
+This File from Alpha-Digital.Store
+
+upload the link folder and extract wordpress directory and then add the code in theme header and footer
+
+add in theme header.php
+
+<?php include 'links/header.php'; ?>
+
+
+add in theme footer.php
+
+<?php include 'links/footer.php'; ?>
+
+Now go to setup folder and go to setting.php file and add details
+
+
+Setup Video comming soon
